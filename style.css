@@ -11,6 +11,7 @@ body {
 .containerThree,
 .containerFour {
     padding: 100px 400px;
+    
 }
 
 .containerTwo {
@@ -181,6 +182,11 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
+}
+
+.containerThree {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
