@@ -10,7 +10,7 @@ body {
 .containerTwo,
 .containerThree,
 .containerFour {
-    padding: 100px 200px;
+    padding: 100px 400px;
 }
 
 .containerTwo {
@@ -20,7 +20,7 @@ body {
 .containerOne {
     padding-bottom: 100px;
     padding-left: 200px;
-    padding-right: 200px;
+    padding-right: 400px;
 }
 
 .header {
@@ -72,9 +72,9 @@ h2 {
 }
 
 .squareForm {
-    width: 100px;
-    height: 100px;
-    border: solid 3px lightskyblue;
+    width: 200px;
+    height: 200px;
+    border: solid 5px lightskyblue;
     border-radius: 10px;
 }
 
@@ -158,5 +158,29 @@ h1 {
 
 .textLeft p {
     margin-bottom: 10px;
+}
+
+.containerTwo {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    
+    flex-direction: column;
+
+}
+
+.squareContainer {
+    display: flex;
+    width: 200px;
+    justify-content: space-around;
+    gap: 100px;
+    
+}
+
+.square {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
 }
 
