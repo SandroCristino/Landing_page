@@ -10,11 +10,15 @@ body {
 .containerTwo,
 .containerThree,
 .containerFour {
-    padding: 40px 200px;
+    padding: 100px 200px;
+}
+
+.containerTwo {
+    padding-top: 50px;
 }
 
 .containerOne {
-    padding-bottom: 40px;
+    padding-bottom: 100px;
     padding-left: 200px;
     padding-right: 200px;
 }
@@ -43,15 +47,21 @@ h1 {
 button {
     background-color: #3882F6;
     color: white;
-    border-radius: 15px;
+    border-radius: 5px;
+    width: 120px;
+    height: 40px;
 }
 
 .imgRight {
-    width: 400px;
-    height: 150px;
+    width: 550px;
+    height: 250px;
     margin: 10px;
     background-color: rgb(111, 116, 124);
     color: white;
+}
+
+.contentOne{ 
+    padding-top: 40px;
 }
 
 h2 {
@@ -114,3 +124,39 @@ h2 {
     color: white;
     font-size: small;
 }
+
+/* Further style setting */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-header {
+    display: flex;
+    gap: 30px;
+}
+
+.contentOne {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imgRight {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+.textLeft p {
+    margin-bottom: 10px;
+}
+
