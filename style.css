@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+.containerOne,
+.footer {
+    background-color: #1F2937;
+}
+
+.containerTwo,
+.containerThree,
+.containerFour {
+    padding: 40px 200px;
+}
+
+.containerOne {
+    padding-bottom: 40px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.header {
+    padding-top: 10px;
+}
+
+.left-header p {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.textLeft p,
+.right-header p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 15px;
+}
+
+.imgRight {
+    width: 400px;
+    height: 150px;
+    margin: 10px;
+    background-color: rgb(111, 116, 124);
+    color: white;
+}
+
+h2 {
+    font-size: 36px;
+    text-align: center;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.squareForm {
+    width: 100px;
+    height: 100px;
+    border: solid 3px lightskyblue;
+    border-radius: 10px;
+}
+
+.square p {
+    color:  grey;
+    font-style: italic;
+}
+
+.containerThree {
+    background-color: #E5E7EB;
+}
+
+.pContainerThreeFirst {
+    font-style: italic;
+}
+
+.pContainerThreeSecond {
+    text-align: end;
+    font-size: small;
+    font-weight: bold;
+}
+
+.contentContainerFour {
+    width: 80%;
+    height: 150px;
+    background-color: rgb(79, 128, 238);
+    padding: 20px 100px;
+    border-radius: 5px;
+}
+
+.pContainerFourFirst {
+    font-weight: bold;
+    color: white;
+}
+
+.pContainerFourSecond {
+    color: white;
+}
+
+.containerFour button {
+    border: solid 1px white;
+}
+
+.footer {
+    padding: 10px 200px;
+    text-align: center;
+    color: white;
+    font-size: small;
+}
