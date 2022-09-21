@@ -13,22 +13,23 @@ body {
     background-color: #1F2937;
 }
 
+.header {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .containerOne,
 .containerTwo,
 .containerThree,
 .containerFour {
     padding: 2% 5%;
-    
 }
 
-.header {
-    padding-left: 5%;
-    padding-right: 5%;
-}
 
-.header {
-    margin: 0;
-}
 
 .left-header p {
     font-size: 24px;
@@ -39,12 +40,25 @@ body {
 .right-header p {
     font-size: 18px;
     color: #e5e7eb;
+    margin-bottom: 10px;
+}
+
+.right-header {
+    display: flex;
+    gap: 30px;
+    justify-content: end;
+}
+
+.right-header p:hover {
+    color: green;
+    font-size: 20px;
 }
 
 h1 {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+    margin-bottom: 5px;
 }
 
 button {
@@ -53,8 +67,8 @@ button {
     border-radius: 5px;
     width: 120px;
     height: 40px;
+    border: solid 1px white;
 }
-
 
 button:hover {
     opacity: 0.8;
@@ -63,10 +77,19 @@ button:hover {
 .imgRight {
     width: 550px;
     height: 250px;
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    margin-left: 60px;
+    margin-bottom: 20px;
 }
 
-.contentOne{ 
+.contentOne { 
     padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 h2 {
@@ -84,98 +107,24 @@ h2 {
     position: relative;
 }
 
+.squareForm:hover .image {
+    opacity: 0.3;
+}
+  
+.squareForm:hover .text {
+    opacity: 1;
+}
+
+.squareContainer p {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: whitesmoke;
+}
 
 .square p {
     color:  grey;
     font-style: italic;
-}
-
-.containerThree {
-    background-color: #E5E7EB;
-}
-
-.pContainerThreeFirst {
-    font-style: italic;
-}
-
-.pContainerThreeSecond {
-    align-self: end;
-    font-size: small;
-    font-weight: bold;
-}
-
-
-.contentContainerFour {
-    width: 800px;
-    height: 150px;
-    background-color: rgb(79, 128, 238);
-    padding: 20px 100px;
-    border-radius: 5px;
-    flex-shrink:0;
-}
-
-.pContainerFourFirst {
-    font-weight: bold;
-    color: white;
-}
-
-.pContainerFourSecond {
-    color: white;
-}
-
-.containerFour button {
-    border: solid 1px white;
-}
-
-.footer {
-    padding: 10px 200px;
-    text-align: center;
-    color: white;
-    font-size: small;
-}
-
-/* Further style setting */
-
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.right-header {
-    display: flex;
-    gap: 30px;
-    justify-content: end;
-}
-
-.contentOne {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.imgRight {
-    display: flex;
-    flex-shrink: 0;
-    align-items: center;
-    justify-content: center;
-    margin-left: 60px;
-    margin-bottom: 20px;
-}
-
-h1 {
-    margin-bottom: 5px;
-}
-
-.textLeft p {
-    margin-bottom: 10px;
-}
-
-.containerTwo {
-    display: flex;
-    align-items:center;
-    flex-direction: column;
-
 }
 
 .squareContainer {
@@ -194,19 +143,55 @@ h1 {
     justify-content: space-between;
 }
 
+
 .containerThree {
     background: slategrey;
 }
 
+.pContainerThreeFirst {
+    font-style: italic;
+}
+
 .pContainerThreeSecond {
+    align-self: end;
+    font-size: small;
+    font-weight: bold;
     text-align: end;
 }
 
 .contentContainerFour {
+    width: 800px;
+    height: 150px;
+    background-color: rgb(79, 128, 238);
+    padding: 20px 100px;
+    border-radius: 5px;
+    flex-shrink:0;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
+}
+
+.pContainerFourFirst {
+    font-weight: bold;
+    color: white;
+}
+
+.pContainerFourSecond {
+    color: white;
+}
+
+.footer {
+    padding: 10px 200px;
+    text-align: center;
+    color: white;
+    font-size: small;
+}
+
+.containerTwo {
+    display: flex;
+    align-items:center;
+    flex-direction: column;
 
 }
 
@@ -225,21 +210,6 @@ h1 {
     flex-direction: column;
 }
 
-/*++++++++   Add own flow    *****************************/
-
-
-.right-header p:hover {
-    color: green;
-    font-size: 20px;
-}
-
-.squareContainer p {
-    text-align: center;
-    color: black;
-    font-weight: bold;
-    background-color: whitesmoke;
-}
-
 .image {
     width: 100%;
     height: auto;
@@ -256,20 +226,12 @@ h1 {
     text-align: center;
 }
 
-.squareForm:hover .image {
-    opacity: 0.3;
-  }
-  
-  .squareForm:hover .text {
-    opacity: 1;
-  }
-
-  .text {
+.text {
     background-color: #04AA6D;
     color: white;
     font-size: 16px;
     padding: 16px 32px;
-  }
+}
 
 
 
